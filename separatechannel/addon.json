@@ -1,0 +1,92 @@
+﻿{
+	"is-c3-addon": true,
+	"type": "effect",
+	"name": "RGBA channel separation",
+	"id": "separatechannel",
+	"version": "1.0.0.0",
+	"author": "Ludonaut",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "Offset color and alpha channels for chromatic aberration effects.",
+	"file-list": [
+		"lang/en-US.json",
+		"addon.json",
+		"effect.fx"
+	],
+	
+	"category": "color",
+	"blends-background": false,
+	"cross-sampling": false,
+	"preserves-opaqueness": true,
+	"animated": false,
+	"extend-box": {
+		"horizontal": 0,
+		"vertical": 0
+	},
+	
+	"parameters": [
+		{
+			"id": "redx",
+			"c2id": "redx",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "redx"
+		},
+		{
+			"id": "greenx",
+			"c2id": "greenx",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "greenx"
+		},
+		{
+			"id": "bluex",
+			"c2id": "bluex",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "bluex"
+		},
+		{
+			"id": "alphax",
+			"c2id": "alphax",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "setfloat"
+		},
+		{
+			"id": "redy",
+			"c2id": "redy",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "redy"
+		},
+		{
+			"id": "greeny",
+			"c2id": "greeny",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "greeny"
+		},
+		{
+			"id": "bluey",
+			"c2id": "bluey",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "bluey"
+		},
+		{
+			"id": "alphay",
+			"c2id": "alphay",
+			"type": "float",
+			"initial-value": 0,
+			"uniform": "alphay"
+		},
+		{
+			"id": "intensity",
+			"c2id": "intensity",
+			"type": "percent",
+			"initial-value": 1,
+			"uniform": "intensity"
+		}
+	]
+}

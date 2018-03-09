@@ -1,0 +1,51 @@
+﻿{
+	"is-c3-addon": true,
+	"type": "effect",
+	"name": "Drop Shadow",
+	"id": "DropShadow",
+	"version": "1.0.0.0",
+	"author": "Ludonaut / Somebody",
+	"website": "https://www.construct.net",
+	"documentation": "https://www.construct.net",
+	"description": "Adds a drop shadow with an offset and opacity (best used on layers)",
+	"file-list": [
+		"lang/en-US.json",
+		"addon.json",
+		"effect.fx"
+	],
+	
+	"category": "other",
+	"blends-background": true,
+	"cross-sampling": false,
+	"preserves-opaqueness": true,
+	"animated": false,
+	"extend-box": {
+		"horizontal": 0,
+		"vertical": 0
+	},
+	
+	"parameters": [
+		{
+			"id": "offsetX",
+			"c2id": "xoffset",
+			"type": "float",
+			"initial-value": 1,
+			"uniform": "offsetX"
+		},
+		{
+
+			"id": "offsetY",
+			"c2id": "yoffset",
+			"type": "float",
+			"initial-value": 1,
+			"uniform": "offsetY"
+		},
+		{
+			"id": "dropopacity",
+			"c2id": "opacity",
+			"type": "percent",
+			"initial-value": 1,
+			"uniform": "dropopacity"
+		}
+	]
+}

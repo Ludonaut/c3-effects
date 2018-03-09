@@ -1,0 +1,50 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for the 'Separate Channel' effect.",
+	"text": {
+		"effects": {
+			"separatechannel": {
+				"name": "RGBA channel separation",
+				"description": "Offset color and alpha channels for chromatic aberration effects.",
+				"parameters": {
+					"redx": {
+						"name": "Red X",
+						"desc": "Red X-Offset in pixels."
+					},
+					"greenx": {
+						"name": "Green X",
+						"desc": "Green X-Offset in pixels."
+					},
+					"bluex": {
+						"name": "Blue X",
+						"desc": "Blue X-Offset in pixels."
+					},
+					"alphax": {
+						"name": "Alpha X",
+						"desc": "Alpha X-Offset in pixels."
+					},
+					"redy": {
+						"name": "Red Y",
+						"desc": "Red Y-Offset in pixels."
+					},
+					"greeny": {
+						"name": "Green Y",
+						"desc": "Green Y-Offset in pixels."
+					},
+					"bluey": {
+						"name": "Blue Y",
+						"desc": "Blue Y-Offset in pixels."
+					},
+					"alphay": {
+						"name": "Alpha Y",
+						"desc": "Alpha Y-Offset in pixels."
+					},
+					"intensity": {
+						"name": "Intensity",
+						"desc": "Intensity level, from 0 to 100."
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for the 'DropShadow' effect.",
+	"text": {
+		"effects": {
+			"DropShadow": {
+				"name": "Drop Shadow",
+				"description": "Adds a drop shadow with an offset and opacity (best used on layers)",
+				"parameters": {
+					"offsetX": {
+						"name": "X Offset",
+						"desc": "X offset in pixels"
+					},
+					"offsetY": {
+						"name": "Y Offset",
+						"desc": "Y offset in pixels"
+					},
+					"dropopacity": {
+						"name": "Opacity",
+						"desc": "Opacity of the drop shadow"
+					}
+				}
+			}
+		}
+	}
+}
