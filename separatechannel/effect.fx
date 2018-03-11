@@ -15,19 +15,19 @@ uniform lowp sampler2D samplerFront;
 // these were used in C2 and replaced by pixelSize in C3.
 
 // available uniforms in C3:
-uniform mediump vec2 srcStart; // current foreground rectangle, clamped
-uniform mediump vec2 srcEnd;
-uniform mediump vec2 srcOriginStart; // same as above but unclamped
-uniform mediump vec2 srcOriginEnd;
-uniform mediump vec2 layoutStart; // fg tex in layout coordinates
-uniform mediump vec2 layoutEnd;
-uniform lowp sampler2D samplerBackground; // bg texture sampler used for bg blending
-uniform mediump vec2 destStart; // current bg rectangle in texture coordinates
-uniform mediump vec2 destEnd;
-uniform mediump float seconds; // used for animated effects
+//uniform mediump vec2 srcStart; // current foreground rectangle, clamped
+//uniform mediump vec2 srcEnd;
+//uniform mediump vec2 srcOriginStart; // same as above but unclamped
+//uniform mediump vec2 srcOriginEnd;
+//uniform mediump vec2 layoutStart; // fg tex in layout coordinates
+//uniform mediump vec2 layoutEnd;
+//uniform lowp sampler2D samplerBackground; // bg texture sampler used for bg blending
+//uniform mediump vec2 destStart; // current bg rectangle in texture coordinates
+//uniform mediump vec2 destEnd;
+//uniform mediump float seconds; // used for animated effects
 uniform mediump vec2 pixelSize; // size of a texel in fg texture coordinates
-uniform mediump float layerScale; // layer scale as a factor (1 is unscaled)
-uniform mediump float layerAngle;  // current layer angle in radians
+//uniform mediump float layerScale; // layer scale as a factor (1 is unscaled)
+//uniform mediump float layerAngle;  // current layer angle in radians
 
 // our effect parameters
 uniform float redx;

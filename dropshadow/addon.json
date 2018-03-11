@@ -11,11 +11,12 @@
 	"file-list": [
 		"lang/en-US.json",
 		"addon.json",
-		"effect.fx"
+		"effect.fx",
+		"icon.svg"
 	],
 	
 	"category": "other",
-	"blends-background": true,
+	"blends-background": false,
 	"cross-sampling": false,
 	"preserves-opaqueness": true,
 	"animated": false,
