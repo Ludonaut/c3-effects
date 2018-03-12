@@ -1,6 +1,6 @@
 # Effects for Construct 3
 
-These are a bunch WebGL shader effects for use with [Construct 3](https://www.construct.net/), converted from old Construct 2 effects I was using. If you spot an error, want to add another effect to this collection or know of a better solution, please [submit a pull request](https://github.com/Ludonaut/c3-effects/pulls).
+These are a bunch WebGL shader effects for use with [Construct 3](https://www.construct.net/), converted from old Construct 2 effects I was using. If you spot an error, want to add another effect to this collection or know of a better solution, please [submit a pull request](pulls).
 
 ## Known Issues:
 
