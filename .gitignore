@@ -1,3 +1,6 @@
+# Construct
+*.c3addon
+
 # Dotgrid
 *.dot
 
