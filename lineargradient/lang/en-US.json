@@ -1,0 +1,26 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for the 'Linear Gradient' effect.",
+	"text": {
+		"effects": {
+			"lineargradient": {
+				"name": "Linear Gradient",
+				"description": "A 2-color linear gradient with an angle.",
+				"parameters": {
+					"color1": {
+						"name": "Start Color",
+						"desc": "Starting color of the gradient."
+					},
+					"color2": {
+						"name": "End Color",
+						"desc": "Color the gradient ends at."
+					},
+					"angle": {
+						"name": "Angle",
+						"desc": "Angle of the gradient."
+					}
+				}
+			}
+		}
+	}
+}
