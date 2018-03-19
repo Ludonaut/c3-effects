@@ -1,4 +1,5 @@
 # Construct
+*.c3p
 *.c3addon
 
 # Dotgrid
