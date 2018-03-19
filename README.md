@@ -4,11 +4,11 @@ These are a bunch WebGL shader effects for use with [Construct 3](https://www.co
 
 ## Known Issues:
 
-* add a blur option to drop shadow
 * dropshadow and separatechannel won't scale correctly.
 
 ## Todo:
 
+* add a blur option to drop shadow
 * basically any effect made by scirra forum user *Somebody*
 * lottes crt
 * crt by anata
