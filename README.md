@@ -13,7 +13,6 @@ These are a bunch WebGL shader effects for use with [Construct 3](https://www.co
 * lottes crt
 * crt by anata
 * vhs
-* adjust hsl
 * alphadither
 * mode7
 * any halfway decent ascii shader
