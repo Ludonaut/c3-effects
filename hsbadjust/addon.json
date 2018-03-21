@@ -11,7 +11,8 @@
 	"file-list": [
 		"lang/en-US.json",
 		"addon.json",
-		"effect.fx"
+		"effect.fx",
+		"icon.png"
 	],
 	
 	"category": "color",
