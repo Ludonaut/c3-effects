@@ -1,0 +1,27 @@
+#!/usr/bin/env python2
+# generate server.xml with the following command:
+#    openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes
+# add it to PATH
+# Run as follow:
+#    pyserver
+#    pyserver 8085
+
+from SimpleHTTPServer import SimpleHTTPRequestHandler
+from BaseHTTPServer import HTTPServer
+import ssl, sys, os
+
+
+class CORSRequestHandler (SimpleHTTPRequestHandler):
+    def end_headers (self):
+        self.send_header('Access-Control-Allow-Origin', '*')
+        SimpleHTTPRequestHandler.end_headers(self)
+
+targetPort = int(sys.argv[1]) if len(sys.argv) >= 2 else 8080
+
+dir = os.path.dirname(__file__)
+certFilePath = os.path.join(dir, 'server.pem')
+
+httpd = HTTPServer(('localhost', targetPort), CORSRequestHandler)
+httpd.socket = ssl.wrap_socket (httpd.socket, certfile=certFilePath, server_side=True)
+print("Start HTTPS server with CORS enabled on https://localhost:" + str(targetPort))
+httpd.serve_forever()
