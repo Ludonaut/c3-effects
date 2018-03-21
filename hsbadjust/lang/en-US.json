@@ -1,0 +1,26 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for the 'Adjust HSB' effect.",
+	"text": {
+		"effects": {
+			"hsbadjust": {
+				"name": "Adjust HSB",
+				"description": "Adjust image colors using Hue, Saturation and Brightness.",
+				"parameters": {
+					"hue": {
+						"name": "Hue",
+						"desc": "Amount of hue rotation to apply, from -100 to 100."
+					},
+					"saturation": {
+						"name": "Saturation",
+						"desc": "Saturation, from 0 to 100 and beyond."
+					},
+					"brightness": {
+						"name": "Brightness",
+						"desc": "Brightness, from 0 to 200 (default is 100)."
+					}
+				}
+			}
+		}
+	}
+}
