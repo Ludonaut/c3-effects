@@ -8,7 +8,7 @@ There are two ways to install these effects:
 
 You can either download these effects off [Construct 3's official addon exchange](https://www.construct.net/make-games/addons).
 
-Or you can clone this repository, zip the contents of a folder of an effect you want to install, change the .zip file extension to .c3addon and install it via the Construct 3's Addon manager (go to *Menu -> View -> Install new addon...*).
+Or you can clone this repository, zip the contents of a folder of an effect you want to install, change the .zip file extension to .c3addon and install it via the Construct 3's Addon manager (go to *Menu -> View -> Install new addon...*). Note that if you see an effect in here that you can't find on the official exchange, it's probably broken and/or won't work as expected.
 
 ## How to contribute :sparkles:
 0. [Enable Construct 3's Developer Mode](https://www.construct.net/make-games/manuals/addon-sdk/guide/enabling-developer-mode).
@@ -24,6 +24,7 @@ Or you can clone this repository, zip the contents of a folder of an effect you 
 ## Known Issues:
 
 * dropshadow and separatechannel won't scale correctly.
+* outline effect only works on objects, quality setting doesn't do anything.
 
 ## Todo:
 
@@ -35,4 +36,3 @@ Or you can clone this repository, zip the contents of a folder of an effect you 
 * alphadither
 * mode7
 * any halfway decent ascii shader
-* R0j0hound's outline
