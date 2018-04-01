@@ -10,7 +10,7 @@ You can either download these effects off [Construct 3's official addon exchange
 
 Or you can clone this repository, zip the contents of a folder of an effect you want to install, change the .zip file extension to .c3addon and install it via the Construct 3's Addon manager (go to *Menu -> View -> Install new addon...*). Note that if you see an effect in here that you can't find on the official exchange, it's probably broken and/or won't work as expected.
 
-## How to contribute :sparkles:
+## Contribute :sparkles:
 0. [Enable Construct 3's Developer Mode](https://www.construct.net/make-games/manuals/addon-sdk/guide/enabling-developer-mode).
 1. Clone this repository.
 2. Generate a local SSL cert with the following command: `openssl req -new -x509 -keyout server.pem -out server.pem -days 365 -nodes`
@@ -21,12 +21,12 @@ Or you can clone this repository, zip the contents of a folder of an effect you 
 7. Make changes to the addon, restart Construct, and repeat until it stops exploding :boom:
 8. [Submit a pull request](../../pulls)
 
-## Known Issues:
+## Known Issues
 
 * dropshadow and separatechannel won't scale correctly.
 * outline effect only works on objects, quality setting doesn't do anything.
 
-## Todo:
+## Todo
 
 * add a blur option to drop shadow
 * basically any effect made by scirra forum user *Somebody*
