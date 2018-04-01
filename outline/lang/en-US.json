@@ -1,0 +1,26 @@
+﻿{
+	"languageTag": "en-US",
+	"fileDescription": "Strings for the 'Outline' effect.",
+	"text": {
+		"effects": {
+			"outline": {
+				"name": "Outline",
+				"description": "Applies an outline / stroke effect.",
+				"parameters": {
+					"thickness": {
+						"name": "Thickness",
+						"desc": "Thickness of the outline / stroke in pixels."
+					},
+					"outlinecolor": {
+						"name": "Outline Color",
+						"desc": "Color of the outline."
+					},
+					"quality": {
+						"name": "Quality",
+						"desc": "Quality of the Outline between 0 and 100. Thin outlines don't need high values. The higher the quality the greater the impact on performance."
+					}
+				}
+			}
+		}
+	}
+}
